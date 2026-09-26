@@ -15,6 +15,6 @@
     var text = encodeURIComponent('Hello AFEC, my name is ' + (data.name || '') + '. Email: ' + (data.email || '') + '. I am interested in ' + (data.interest || 'a conversation') + '. ' + (data.message || '') + ' My number: ' + (data.phone || ''));
     form.classList.add('sent');
     if (success) success.classList.add('show');
-    setTimeout(function () { window.location.href = 'https://wa.me/2349017909577?text=' + text; }, 700);
+    setTimeout(function () { window.location.href = 'https://wa.me/2348083897900?text=' + text; }, 700);
   });
 })();
